@@ -27,7 +27,7 @@ public class Distributeur {
             System.out.println("Numéro de liquide trop grand");
         }
         else{
-            //Ceci peut causer une erreur si volume < 0 et que le liquide est un café
+            //Ceci peut causer une erreur si volume < 0 et que le liquide est un chocolat
             liquides.get(index).addVolume(volume);
         }
     }
