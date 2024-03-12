@@ -8,7 +8,9 @@ public class Distributeur {
 
     public Distributeur(){
         Cafe cafe = new Cafe();
-        Chocolat chocolad = new Chocolat();
+        Chocolat chocolat = new Chocolat();
+        liquides.add(cafe);
+        liquides.add(chocolat);
     }
 
     public void addLiquide(Liquide liquide){
