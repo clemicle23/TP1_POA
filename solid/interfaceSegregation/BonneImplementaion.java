@@ -4,7 +4,7 @@ package solid.interfaceSegregation;
  * Grâce à la ségrégation d'interfaces,
  * on n'importe que les méthodes nécessaires et on évite les implémentations inutiles
  */
-public class BonneImplementaion implements  Commandes,Pedales,Volant{
+public class BonneImplementaion implements  Commandes,Pedales{
     @Override
     public void clignotantDroite() {
 
@@ -32,16 +32,6 @@ public class BonneImplementaion implements  Commandes,Pedales,Volant{
 
     @Override
     public void appuiEmbrayage() {
-
-    }
-
-    @Override
-    public void tournerDroite(double angle) {
-
-    }
-
-    @Override
-    public void tournerGauche(double angle) {
 
     }
 }
